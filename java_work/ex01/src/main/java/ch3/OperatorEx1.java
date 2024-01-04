@@ -1,10 +1,12 @@
+package ch3;
+
 class OperatorEx1 {
 	public static void main(String args[]) {
 		int i=5;
-		i++;		      // i=i+1;°ú °°Àº ÀÇ¹ÌÀÌ´Ù. ++i;·Î ¹Ù²ã ½áµµ °á°ú´Â °°´Ù. 
+		i++;		      // í›„ìœ„ì¦ê°€
 		System.out.println(i);
 
-		i=5;		      //	°á°ú¸¦ ºñ±³ÇÏ±â À§ÇØ i°ªÀ» ´Ù½Ã 5·Î º¯°æ.
+		i=5;		     
 		++i;
 		System.out.println(i);
 	}
