@@ -1,7 +1,12 @@
+package ch3;
+
+
+
 class OperatorEx24 {
 	public static void main(String args[]) { 
 		int  x = 0;
 		char ch = ' ';
+		//띄워쓰기가 있는거임! ''가 아예 없는거!
 
 		x = 15;
 		System.out.printf("x=%2d, 10 < x && x < 20 =%b\n", x, 10 < x && x < 20);
